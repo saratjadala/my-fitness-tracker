@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+  <nav class="navbar is-danger" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     
 
@@ -13,6 +13,7 @@
   <div :class="{ 'is-active':isOpen }" class="navbar-menu">
     <div class="navbar-start">
       <router-link to="/" class="navbar-item" active-class="is-current">Home</router-link> 
+     
       <router-link to="/about" class="navbar-item" active-class="is-current">About</router-link>
       
     </div>

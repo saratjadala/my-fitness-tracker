@@ -24,8 +24,8 @@
           <a class="button is-dark" href="/signup">
             signup
           </a>
-          <a class="button is-dark" href="/SignIn">
-            SignIn
+          <a class="button is-dark" href="/login">
+            login
           </a>
         </div>
       </div>

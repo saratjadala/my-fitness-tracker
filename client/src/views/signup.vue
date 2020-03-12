@@ -33,7 +33,7 @@
   <p class="control">
     
     <button class="button is-dark">
-      Signup
+      signup
     </button>
   </p>
 </div>

@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar is-danger" role="navigation" aria-label="main navigation">
+  <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     
 
@@ -13,42 +13,43 @@
   <div :class="{ 'is-active':isOpen }" class="navbar-menu">
     <div class="navbar-start">
       <router-link to="/" class="navbar-item" active-class="is-current">Home</router-link> 
-     
       <router-link to="/about" class="navbar-item" active-class="is-current">About</router-link>
       
     </div>
-
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <a class="button is-dark" href="/signup">
-            signup
+          <a class="button is-light" href="/signup">
+            Sign up
           </a>
-          <a class="button is-dark" href="/login">
-            login
+          <a class="button is-light" href="/login">
+            Log in
           </a>
         </div>
       </div>
     </div>
   </div>
+  
 </nav>
 </template>
+
 <script>
 export default {
 data: ()=>({
-    isopen: false
-})
+  isOpen: false 
+ })
 }
 </script>
+
 <style lang="scss" scoped>
   nav {
     margin-top: 25px;
     margin-bottom: 30px;
     a {
       font-weight: bold;
-      color: #9B59B6;
+      color: #2a9e1b;
       &.router-link-exact-active {
-        color: #d88d00;
+        color:  #3416886c;
       }
     }
   }

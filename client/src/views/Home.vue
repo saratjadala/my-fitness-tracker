@@ -4,14 +4,12 @@
     <div class="hero-body">
       <div class="container">
         <h1 class="title">
-          Welcome to the Animal Rescue League        
+          Welcome to Fitness World     
         </h1>
         <h2 class="subtitle">
-          Make sure you check out our upcoming events below
+          Be Fit Get Benifts
         </h2>
-        <div class="button-block">
-          <button class="button is-xl is-dark">Sign Up to Browse Events</button>
-        </div>
+        
       </div>
     </div>
   </section>
@@ -27,11 +25,11 @@ export default {
 <style lang="scss" scoped>
   .hero {  
     text-align: center;
-    background-image: url('https://cdn.auth0.com/blog/vue-meetup/event-banner.png');
+    background-image: url('https://lh3.googleusercontent.com/proxy/NOQ8ZfjAIE_KZRUaAWKh4Pmnnu-S4gWJHQRzbkL-6ITCZIAQaMvlwh8RpHXcOC5OvCQBl5V6H2ToU4qEbMGxWvSHYCrniPqBUosz3lrucz3FJdDN_KpnRqZm6TKUhqrBAE7s3Mg_ZeWmPCzMLKXIvxX7oajkiZadRSgiavCL5T38octAXfoHvqjiXNBCN_QxBw');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 500px;
   }
   .hero-body .title {
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);

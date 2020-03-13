@@ -20,6 +20,13 @@
             </span>
         </p>
         </div>
+        <div class="field">
+        <p class="control">
+            <button class="button is-dark">
+            login
+            </button>
+        </p>
+        </div>
   </form>
 </template>
 
@@ -37,7 +44,7 @@ export default {
         login(){
             try {
                 login(this.email, this.password);
-                this.$router.push('/about');
+                this.$router.push('/help');
             } catch (error) {
                 this.error = error;
             }

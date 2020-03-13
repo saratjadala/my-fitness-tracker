@@ -20,13 +20,6 @@
             </span>
         </p>
         </div>
-        <div class="field">
-        <p class="control">
-            <button class="button is-success">
-            login
-            </button>
-        </p>
-        </div>
   </form>
 </template>
 

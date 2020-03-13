@@ -48,9 +48,9 @@ data: ()=>({
     margin-bottom: 30px;
     a {
       font-weight: bold;
-      color: #2a9e1b;
+      color: #2ad313;
       &.router-link-exact-active {
-        color:  #3416886c;
+        color:  #3e0cc86c;
       }
     }
   }

@@ -8,8 +8,8 @@
       </div>
     </div>
     <div class="container">
-      <p class="org-description is-size-4">Your body can stand almost anything. It’s your mind that you have to convince</p>
-      <p class="org-description is-size-4">Whether you’re trying to lose weight, stay fit or just clear your mind after a busy day at work, fitness should become an important part of your life. Words are powerful so a few workout motivation quotes might be that “something” you need to make it a priority.</p>
+      <p class="org-description is-size-4">If you have any  queries regarding fitness call +1(800)-(5556)-(778) or email to fitnesstracker@gmail.com </p>
+      <p class="org-description is-size-4">We are here to make you fit and perfect shape</p>
     </div>
   </div>
 </template>

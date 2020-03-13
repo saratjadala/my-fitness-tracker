@@ -15,9 +15,9 @@ export default {
 </script>
 <style lang="scss">
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  -webkit-font-smoothing: subpixel-antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #53c91c;
+  color: #181b17;
 }
 </style>

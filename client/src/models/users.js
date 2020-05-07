@@ -7,7 +7,7 @@ export let CurrentUser = null;
 
 export async function login(email, password) {
 
-    const user = await myFetch('/views/login', { email, password }) ;
+    const user = await myFetch('/users/login', { email, password }) ;
 
     return CurrentUser = user;
 }

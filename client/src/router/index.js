@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Game from '../views/Game.vue'
 import Home from '../views/Home.vue'
-import Login from '../views/Login.vue'
+import Login from '../views/login.vue'
 import signup from '../views/signup.vue'
 import { CurrentUser } from '../models/Users';
 Vue.use(VueRouter)

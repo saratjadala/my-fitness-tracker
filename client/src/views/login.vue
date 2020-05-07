@@ -165,7 +165,7 @@ export default {
 </template>
 
 <script>
-import { login } from "../models/users";
+import { login } from "../models/Users";
 export default {
     data(){
         return {

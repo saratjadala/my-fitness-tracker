@@ -43,6 +43,10 @@ const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
   routes
-})
+});
+router.beforeEach( (to, from, next) => {
+  if( to.meta.isSecret && !CurrentUser) next('/login');
+  else next();
+});
 
 export default router

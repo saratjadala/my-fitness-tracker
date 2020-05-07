@@ -1,0 +1,19 @@
+{
+  "name": "myfitnesstracker",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000m\u0000y\u0000-\u0000f\u0000i\u0000t\u0000n\u0000e\u0000s\u0000s\u0000-\u0000t\u0000r\u0000a\u0000c\u0000k\u0000e\u0000r\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saratjadala/my-fitness-tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saratjadala/my-fitness-tracker/issues"
+  },
+  "homepage": "https://github.com/saratjadala/my-fitness-tracker#readme"
+}

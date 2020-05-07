@@ -25,7 +25,7 @@ export default {
 <style lang="scss" scoped>
   .hero {  
     text-align: center;
-    background-image: url('https://lh3.googleusercontent.com/proxy/NOQ8ZfjAIE_KZRUaAWKh4Pmnnu-S4gWJHQRzbkL-6ITCZIAQaMvlwh8RpHXcOC5OvCQBl5V6H2ToU4qEbMGxWvSHYCrniPqBUosz3lrucz3FJdDN_KpnRqZm6TKUhqrBAE7s3Mg_ZeWmPCzMLKXIvxX7oajkiZadRSgiavCL5T38octAXfoHvqjiXNBCN_QxBw');
+    background-image: url(https://wallpaperplay.com/walls/full/9/6/c/32713.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

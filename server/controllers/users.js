@@ -9,7 +9,7 @@ const router = express.Router();
 router
     .post('/login', async (req, res) => {
         try {
-            const user = await users.Login(req.body.email, req.body.password);
+            const user = await users.login(req.body.email, req.body.password);
             res.send( { ...user, Password: undefined } );
         } catch (error) {
             res.status(401).send({ message: error.message });

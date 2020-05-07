@@ -1,23 +1,29 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import Game from '../views/Game.vue'
 import Home from '../views/Home.vue'
 import login from '../views/login.vue'
+import { CurrentUser } from '../models/Users';
 import signup from '../views/signup.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
-  {
-    path: '/',
-    name: 'Home',
-    component: Home
-  },
+  
+    { path: '/', name: 'Home', component: Home },
+    { path: '/game', name: 'Game', component: Game, meta: { isSecret: true } },
+    { path: '/login', name: 'Login', component: Login },
+    { path: 'signup', name: 'signup', component: signup },
+  
+  
+  
   {
     path: '/about',
     name: 'About',
     
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
+
   {
       path: '/help',
       name: 'help',

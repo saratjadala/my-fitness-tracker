@@ -11,7 +11,7 @@ const routes = [
   
     { path: '/', name: 'Home', component: Home },
     { path: '/game', name: 'Game', component: Game, meta: { isSecret: true } },
-    { path: '/login', name: 'login', component: login },
+    { path: '/login', name: 'Login', component: Login },
     { path: 'signup', name: 'signup', component: signup },
   
   

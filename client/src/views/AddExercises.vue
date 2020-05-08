@@ -65,12 +65,12 @@
           <div class="col-9">
           <input type="text" v-model="data.pullups"
                     class="form-control"
-                    name="pullups"
-                    id="pullups"
-                    aria-describedby="helppullups"
-                    placeholder="pullups"
+                    name="running"
+                    id="running"
+                    aria-describedby="running"
+                    placeholder="running"
                     required>
-                  <small id="helppullups" class="form-text text-muted">Add the number of pullups.</small>
+                  <small id="running" class="form-text text-muted">Add the number of pullups.</small>
           </div>
 
           </div>

@@ -4,6 +4,7 @@ import Game from '../views/Game.vue'
 import Home from '../views/Home.vue'
 import Login from '../views/login.vue'
 import signup from '../views/signup.vue'
+import Exercises from '../views/Exercises.vue'
 import { CurrentUser } from '../models/Users';
 Vue.use(VueRouter)
 
@@ -31,6 +32,14 @@ const routes = [
       
 
   },
+  {
+    path: '/Exercises',
+    name: 'Exercises',
+    
+    component: Exercises
+    
+
+},
   {
     path: '/signup',
     name: 'signup',

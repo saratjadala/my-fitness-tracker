@@ -7,9 +7,8 @@
             </figure>
         </div>
         <div class="container">
-            <p> Hi, gorgeous! I hope you like our Weekly Excercise video.</p>
-            <p> This week focuses on cardio with a little spice of abs, too. </p>
-            <i class="fas fa-tint"></i><p> Keep glistening!</p> 
+            
+            <i class="fas fa-tint"></i><p> Keep moving</p> 
         </div>
     <container>
         <h1 class="title"> Our Recommended Exercises</h1>

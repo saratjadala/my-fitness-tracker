@@ -8,7 +8,7 @@
             <router-link class="nav-link" to="/MyExercises">Exercises</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link active" to="/AddExercise">Add an Exercise</router-link>
+            <router-link class="nav-link active" to="/AddExercises">schedule</router-link>
           </li>
         </ul>
         </div>
@@ -31,16 +31,16 @@
                 </div>
 
             <div class="form-group row">
-          <label for="body_focus" class="col-3 col-form-label">Body Focus</label>
+          <label for="upper_body" class="col-3 col-form-label">upperbody</label>
           <div class="col-9">
-          <input type="text" v-model="data.body_focus"
+          <input type="text" v-model="data.upper_body"
                     class="form-control"
-                    name="body_focus"
+                    name="upper_body"
                     id="body_focus"
-                    aria-describedby="helpbody_focus"
-                    placeholder="body_focus"
+                    aria-describedby="helpupper_body"
+                    placeholder="upper_body"
                     required>
-                  <small id="helpbody_focus" class="form-text text-muted">Add the body focus.</small>
+                  <small id="helpupper_body" class="form-text text-muted">Add the body focus.</small>
           </div>
           </div>
             
@@ -49,14 +49,14 @@
           <div class="form-group row">
           <label for="reps" class="col-3 col-form-label">pushups</label>
           <div class="col-9">
-          <input type="text" v-model="data.pushups"
+          <input type="text" v-model="data.lowerbody"
                     class="form-control"
                     name="reps"
                     id="reps"
-                    aria-describedby="helppushups"
-                    placeholder="pushups"
+                    aria-describedby="helplowerbody"
+                    placeholder="lowerbody"
                     required>
-                  <small id="helppushups" class="form-text text-muted">Add the number of pushups.</small>
+                  <small id="helplowerbody" class="form-text text-muted">Add the number of pushups.</small>
           </div>
           </div>
 
@@ -106,7 +106,7 @@
 </template>
 
 <script>
-//import { Globals } from '@/models/api';//
+import { Globals } from '@/models/api';
 import { addExercise } from '@/models/Exercises';
 import toastr from 'toastr';
 export default {

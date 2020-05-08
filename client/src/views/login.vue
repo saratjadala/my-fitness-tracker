@@ -27,6 +27,9 @@
             </button>
         </p>
         </div>
+         <figure class="image is 60x20">
+          <img src="https://www.hdwallpaper.nu/wp-content/uploads/2015/06/best-motivational-gym-quotes-hd-wallpaper.jpg">
+         </figure>
   </form>
 </template>
 

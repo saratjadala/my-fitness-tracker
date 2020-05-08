@@ -106,7 +106,7 @@
 </template>
 
 <script>
-import { Globals } from '@/models/api';
+//import { Globals } from '@/models/api';//
 import { addExercise } from '@/models/Exercises';
 import toastr from 'toastr';
 export default {

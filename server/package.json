@@ -10,7 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",
-    "express": "^4.17.1"
+    "buefy": "^0.8.18",
+    "express": "^4.17.1",
+    "vue-select": "^3.10.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"

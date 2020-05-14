@@ -15,7 +15,8 @@
       <router-link to="/" class="navbar-item" active-class="is-current">Home</router-link> 
       <router-link to="/about" class="navbar-item" active-class="is-current">About</router-link>
        <router-link to="/help" class="navbar-item" active-class="is-current">help</router-link>
-       <router-link to="/Exercises" class="navbar-item" active-class="is-current">Exercises</router-link>
+       
+       <router-link to="/autocomplete" class="navbar-item" active-class="is-current">autocomplete</router-link>
       
     </div>
     <div class="navbar-end">

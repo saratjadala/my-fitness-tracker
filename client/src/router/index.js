@@ -5,7 +5,6 @@ import Home from '../views/Home.vue'
 import Login from '../views/login.vue'
 import signup from '../views/signup.vue'
 import Exercises from '../views/MyExercises.vue'
-import autocomplete from '../views/autocomplete.vue'
 import { CurrentUser } from '../models/Users';
 Vue.use(VueRouter)
 
@@ -15,6 +14,9 @@ const routes = [
     { path: '/game', name: 'Game', component: Game, meta: { isSecret: true } },
     { path: '/login', name: 'Login', component: Login },
     { path: 'signup', name: 'signup', component: signup },
+   
+
+
   
   
   
@@ -34,6 +36,12 @@ const routes = [
 
   },
   {
+    path: '/autocomplete',
+    name: 'autocomplete',
+    
+    component: () => import(/* webpackChunkName: "autocomplete" */ '../views/autocomplete.vue')
+  },
+   {
     path: '/Exercises',
     name: 'Exercises',
     

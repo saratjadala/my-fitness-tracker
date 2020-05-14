@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/saratjadala/my-fitness-tracker/issues"
   },
-  "homepage": "https://github.com/saratjadala/my-fitness-tracker#readme"
+  "homepage": "https://github.com/saratjadala/my-fitness-tracker#readme",
+  "dependencies": {
+    "buefy": "^0.8.18"
+  }
 }

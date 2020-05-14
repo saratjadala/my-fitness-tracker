@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "babel-loader": "^8.0.6",
+    "buefy": "^0.8.18",
     "bulma": "^0.8.0",
     "core-js": "^3.6.4",
     "vue": "^2.6.11",
